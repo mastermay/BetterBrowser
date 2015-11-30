@@ -18,6 +18,11 @@ add
 ```
 before `</html>`
 
+If needed, upload `browsers.png` and edit background-image url in `betterbrowser.js`.
+```
+... background:url(your image url) ...
+```
+
 ###Parameters
 
 1. position, full | bottom | right-bottom, default: bottom
