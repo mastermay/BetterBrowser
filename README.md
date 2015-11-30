@@ -8,13 +8,13 @@ Tips for outdated version of Internet Explorer.
 ##Usage
 ###Add required files
 
-upload `betterbrowser.js` and `browsers.png` to the same folder.
+upload `betterbrowser.js`
 
-###Add scripts
+###Edit scripts
 
-add 
+add
 ```
-<!--[if lt IE 10 ]><script type="text/javascript" src="browser.js"></script><![endif]-->
+<!--[if lt IE 10 ]><script type="text/javascript" src="betterbrowser.js"></script><![endif]-->
 ```
 before `</html>`
 
