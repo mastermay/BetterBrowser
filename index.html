@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Betterbrowser by mastermay</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Betterbrowser</h1>
+        <p>Tip for outdated version of Internet Explorer.</p>
+
+        <p class="view"><a href="https://github.com/mastermay/BetterBrowser">View the Project on GitHub <small>mastermay/BetterBrowser</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/mastermay/BetterBrowser/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mastermay/BetterBrowser/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mastermay/BetterBrowser">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
+
+<ul>
+<li>None :)</li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<h3>
+<a id="add-required-files" class="anchor" href="#add-required-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add required files</h3>
+
+<p>upload <code>betterbrowser.js</code> and <code>browsers.png</code> to the same folder.</p>
+
+<h3>
+<a id="add-scripts" class="anchor" href="#add-scripts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add scripts</h3>
+
+<p>add </p>
+
+<pre><code>&lt;!--[if lt IE 10 ]&gt;&lt;script type="text/javascript" src="betterbrowser.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;
+</code></pre>
+
+<p>before <code>&lt;/html&gt;</code></p>
+
+<h3>
+<a id="parameters" class="anchor" href="#parameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Parameters</h3>
+
+<ol>
+<li>position, full | bottom | right-bottom, default: bottom</li>
+<li>duration, numbers, default: 5000ms</li>
+<li>title, strings, default: 'Upgrade your browser today!'</li>
+<li>content, strings, default: 'You are using an outdated browser. Old browsers are SLOW and more likely to CRASH.'</li>
+<li>download, strings, default: 'DOWNLOAD NOW!'</li>
+</ol>
+
+<h3>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h3>
+
+<p>Edit <code>betterbrowser.js</code></p>
+
+<pre><code>(new BetterBrowser({position: 'full', duration: 6000})).init();
+</code></pre>
+
+<p>full screen tip, disappear after 6 seconds.</p>
+
+<p>*activated in this page for all browsers.</p>
+
+
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/mastermay">mastermay</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
