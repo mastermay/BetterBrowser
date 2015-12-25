@@ -49,6 +49,8 @@ full screen tip, disappear after 6 seconds.
 ```
 可在 IE10 之前的版本中显示浏览器升级提示。
 
+> 中文版提示图片存储在七牛云上。
+
 ###参数
 
 1. position, full | bottom | right-bottom, default: bottom，提示的显示位置，共三种：全屏、下方半屏、右下角
