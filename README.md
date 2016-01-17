@@ -16,7 +16,7 @@ add
 ```
 <!--[if lt IE 10 ]><script type="text/javascript" src="betterbrowser.js"></script><![endif]-->
 ```
-before `</html>`
+before `</body>`
 
 If needed, upload `browsers.png` and edit background-image url in `betterbrowser.js`.
 ```
@@ -43,7 +43,7 @@ full screen tip, disappear after 6 seconds.
 
 ###使用方法
 
-在`</html>`之前添加
+在`</body>`之前添加
 ```
 <!--[if lt IE 10 ]><script type="text/javascript" src="betterbrowser-cn.js"></script><![endif]-->
 ```
