@@ -1,13 +1,12 @@
 ; (function() {
 	var BetterBrowser = function(opt) {
-		defaults = {
+		this.options = {
 			'position': 'bottom',
 			'duration': 5000,
 			'title': '升级到现代浏览器！',
 			'content': '当前您正在使用一个落后的浏览器，这将极大影响您的用户体验、并可能导致安全问题。',
 			'download': '前往下载'
 		};
-		this.options = defaults;
 		if (opt) {
 			for (var key in opt) {
 				if (opt.hasOwnProperty(key) && opt[key] !== undefined) {

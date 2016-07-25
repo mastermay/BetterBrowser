@@ -1,13 +1,12 @@
 ; (function() {
 	var BetterBrowser = function(opt) {
-		defaults = {
+		this.options = {
 			'position': 'bottom',
 			'duration': 5000,
 			'title': 'Upgrade your browser today!',
 			'content': 'You are using an outdated browser. Old browsers are SLOW and more likely to CRASH.',
 			'download': 'DOWNLOAD NOW!'
 		};
-		this.options = defaults;
 		if (opt) {
 			for (var key in opt) {
 				if (opt.hasOwnProperty(key) && opt[key] !== undefined) {
